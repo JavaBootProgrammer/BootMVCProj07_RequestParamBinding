@@ -22,3 +22,9 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
+target/classes/application.properties
+target/classes/register.jsp
+target/classes/welcome.jsp
+target/m2e-wtp/web-resources/META-INF/MANIFEST.MF
+target/m2e-wtp/web-resources/META-INF/maven/com.nt/BootMVCProj07_RequestParamBinding/pom.properties
+target/m2e-wtp/web-resources/META-INF/maven/com.nt/BootMVCProj07_RequestParamBinding/pom.xml
