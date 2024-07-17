@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Created-By: IntelliJ IDEA
+Built-By: apasunoori
+Build-Jdk: 19.0.2
+Implementation-Title: BootMVCProj07_RequestParamBinding
+Implementation-Version: 0.0.1
+Implementation-Vendor-Id: com.nt
+Main-Class: ${start-class}
+
