@@ -3,3 +3,9 @@
 ${param.sno}
 
  ${param.sname}
+
+ 
+  ${param.setAdd}
+ 
+  ${param.sadd}
+ 

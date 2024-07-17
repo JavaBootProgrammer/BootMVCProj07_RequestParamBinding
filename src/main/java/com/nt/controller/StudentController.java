@@ -1,5 +1,9 @@
 package com.nt.controller;
 
+import java.util.Arrays;
+
+import java.util.Set;
+
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
@@ -43,6 +47,14 @@ public class StudentController {
 			@RequestParam(defaultValue = "No Name") String sname) {
 
 		System.out.print(sno + "           " + sname);
+		return "register";
+	}
+
+	@GetMapping("/registerStudentAddress")
+	public String registerStudentAddress(@RequestParam String sno, @RequestParam String sname,
+			@RequestParam String[] sadd, @RequestParam Set<String> setAdd) {
+
+		System.out.print(sno + "  " + sname + "  " + Arrays.toString(sadd) + "  " + setAdd);
 		return "register";
 	}
 
