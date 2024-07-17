@@ -30,6 +30,22 @@ public class StudentController {
 		return "register";
 	}
 
+	@GetMapping("/registerStudentrequiredValue")
+	public String registerStudentrequiredValue(@RequestParam(required = false) String sno,
+			@RequestParam(required = false) String sname) {
+
+		System.out.print(sno + "           " + sname);
+		return "register";
+	}
+
+	@GetMapping("/registerStudentDefaultValue")
+	public String registerStudentDefaultValue(@RequestParam(defaultValue = "1") String sno,
+			@RequestParam(defaultValue = "No Name") String sname) {
+
+		System.out.print(sno + "           " + sname);
+		return "register";
+	}
+
 	@GetMapping("/welcome")
 	public String registerStuden() {
 
